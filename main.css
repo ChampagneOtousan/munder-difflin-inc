@@ -1,0 +1,25 @@
+.container {
+  background-color: black;
+  text-align: center;
+  font: #fff sans-serif;
+}
+
+
+#navbar {
+  font: 14px sans-serif;
+}
+
+#navbar label a {
+  text-decoration: none;
+}
+
+h1, h2, p {
+  color: #fff;
+  padding: 0 auto;
+}
+
+.grid-display div {
+  display: grid;
+  grid-template: 200px 200px 200px / 200px 200px 200px;
+  grid-gap: 1%
+}

@@ -26,8 +26,5 @@ h2, p {
 }
 
 .grid-display {
-
   display: grid;
-  grid-row: auto;
-
 }

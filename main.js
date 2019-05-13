@@ -1,3 +1,2 @@
-let container = document.getElementbyClass("container")
-let paras = documennt.getElementsByTagName("p")
-paras.style.textColor = "darkred"
+document.body.style.backgroundColor = "rgb(213, 187, 186)"
+document.body.style.margin = "0 2% 5% 2%"

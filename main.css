@@ -1,11 +1,13 @@
 .container {
-  background-color: black;
+  margin: 0 1% 5% 1%;
+  /* background-color: black; */
   text-align: center;
   font: #fff sans-serif;
 }
 
 
 #navbar {
+  margin: 0 auto;
   font: 14px sans-serif;
 }
 

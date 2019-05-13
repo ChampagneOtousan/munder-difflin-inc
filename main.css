@@ -1,6 +1,5 @@
 .container {
   margin: 0 1% 5% 1%;
-  /* background-color: black; */
   text-align: center;
   font: #fff sans-serif;
 }
@@ -15,15 +14,12 @@
 }
 
 h1 {
-  color: blue;
+  color: rgba(44, 105, 65, 0.6);
   margin: 0 auto;
 }
 
 h2, p {
   color: #fff;
   padding: 0 auto;
-}
-
-.img-grid {
-  display: grid;
+  spacing: 1.7em;
 }

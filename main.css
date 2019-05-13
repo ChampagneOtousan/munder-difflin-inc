@@ -15,13 +15,19 @@
   text-decoration: none;
 }
 
-h1, h2, p {
+h1 {
+  color: blue;
+  margin: 0 auto;
+}
+
+h2, p {
   color: #fff;
   padding: 0 auto;
 }
 
-.grid-display div {
+.grid-display {
+
   display: grid;
-  grid-template: 200px 200px 200px / 200px 200px 200px;
-  grid-gap: 1%
+  grid-row: auto;
+
 }

@@ -23,3 +23,8 @@ h2, p {
   padding: 0 auto;
   spacing: 1.7em;
 }
+
+.img-grid {
+  display: row;
+  grid-template: 150px 150px 150px / 100px 100px 100px;
+}

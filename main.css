@@ -52,5 +52,11 @@ h2, p {
 }
 
 footer {
-  font: #fff;
+  color: #fff;
+  text-decoration: none;
+}
+
+footer ul li {
+  display: inline;
+  
 }

@@ -1,5 +1,6 @@
 body {
   background-image: url("https://www.fdtgroup.org/wp-content/uploads/2016/05/Dalum-Papir.png");
+  border: 20px solid black;
 }
 
 .container {
@@ -32,6 +33,24 @@ a {
   }
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.show {
+  animation: fadeIn 1.3s;
+}
+
 h1 {
   font-size: 65px;
   font-family: serif;
@@ -46,9 +65,9 @@ h2, p {
   spacing: 1.7em;
 }
 
-.img-grid {
+.image-grid {
   display: grid;
-  grid-template: ;
+  grid-template: 200px 200px 200px / 300px 300px 300px;
 }
 
 footer {

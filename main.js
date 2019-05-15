@@ -4,7 +4,7 @@ function myFunction() {
   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     document.getElementById("para").className = "p";
   } else {
-    document.getElementById("img-grid").className = "img-grid";
+    document.getElementById("image-grid").className = "image-grid";
   }
 }
 
